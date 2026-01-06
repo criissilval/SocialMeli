@@ -24,7 +24,11 @@ public class User {
 
     public Long getId() { return id; }
     public String getName() { return name; }
-    public boolean isSeller() { return seller; }
+    public boolean isSeller() {
+
+        return seller;
+
+    }
 
     public void setId(Long id) {this.id = id; }
     public void setName(String name) {this.name = name; }
